@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="chapter-3.xhtml">
+		<ignore>
+			<code>t-011</code>
+			<reason>No punctuation to match the formatting found on https://archive.org/details/cu31924013462738/page/n47/mode/2up</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
