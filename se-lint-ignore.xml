@@ -6,4 +6,10 @@
 			<reason>No punctuation to match the formatting found on https://archive.org/details/cu31924013462738/page/n47/mode/2up</reason>
 		</ignore>
 	</file>
+	<file path="chapter-8.xhtml">
+		<ignore>
+			<code>t-007</code>
+			<reason>Pearson's Magazine is a magazine title, not a name doing the possessing.</reason>
+		</ignore>
+	</file>
 </se-lint-ignore>
