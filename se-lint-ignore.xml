@@ -12,4 +12,10 @@
 			<reason>Pearson's Magazine is a magazine title, not a name doing the possessing.</reason>
 		</ignore>
 	</file>
+	<file path="chapter-11.xhtml">
+		<ignore>
+			<code>t-037</code>
+			<reason>The italicized é nearly overlapped the closing quotes, so a hairspace was added for readability.</reason>
+		</ignore>
+	</file>
 </se-lint-ignore>
