@@ -40,7 +40,7 @@
 		<meta property="se:subject">Spirituality</meta>
 		<dc:description id="description">Heretics is a collection of essays published by G. K. Chesterton in 1905 in which he debates the intellectuals of his day on a range of topics.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;G.K. Chesterton was an English writer, journalist, philosopher, poet and lay theologian. He delighted in standing conventional wisdom on its head in order to expose what he considered to be the lack of substance in the “vague modern.”&lt;/p&gt;
+			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/g-k-chesterton"&gt;G.K. Chesterton&lt;/a&gt; was an English writer, journalist, philosopher, poet and lay theologian. He delighted in standing conventional wisdom on its head in order to expose what he considered to be the lack of substance in the “vague modern.”&lt;/p&gt;
 			&lt;p&gt;In &lt;i&gt;Heretics&lt;/i&gt;, he touches on a range of topics, including Social Darwinism, eugenics, nihilism and atheism, while enumerating the flaws he found in the work of his intellectual contemporaries such as Rudyard Kipling, Friedrich Nietzsche, George Bernard Shaw and H. G. Wells.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
