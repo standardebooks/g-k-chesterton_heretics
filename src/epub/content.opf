@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/g-k-chesterton/heretics</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2021-02-10T02:50:26Z</dc:date>
+		<meta property="dcterms:modified">2021-02-10T02:50:26Z</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -38,7 +38,7 @@
 		<meta property="se:subject">Nonfiction</meta>
 		<meta property="se:subject">Philosophy</meta>
 		<meta property="se:subject">Spirituality</meta>
-		<dc:description id="description">Heretics is a collection of essays published by G. K. Chesterton in 1905 in which he debates the intellectuals of his day on a range of topics.</dc:description>
+		<dc:description id="description">A collection of essays in which G. K. Chesterton debates the intellectuals of his day on a range of topics.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/g-k-chesterton"&gt;G.K. Chesterton&lt;/a&gt; was an English writer, journalist, philosopher, poet and lay theologian. He delighted in standing conventional wisdom on its head in order to expose what he considered to be the lack of substance in the “vague modern.”&lt;/p&gt;
 			&lt;p&gt;In &lt;i&gt;Heretics&lt;/i&gt;, he touches on a range of topics, including Social Darwinism, eugenics, nihilism and atheism, while enumerating the flaws he found in the work of his intellectual contemporaries such as &lt;a href="https://standardebooks.org/ebooks/rudyard-kipling"&gt;Rudyard Kipling&lt;/a&gt;, &lt;a href="https://standardebooks.org/ebooks/friedrich-nietzsche"&gt;Friedrich Nietzsche&lt;/a&gt;, &lt;a href="https://standardebooks.org/ebooks/george-bernard-shaw"&gt;George Bernard Shaw&lt;/a&gt; and &lt;a href="https://standardebooks.org/ebooks/h-g-wells"&gt;H. G. Wells&lt;/a&gt;.&lt;/p&gt;
@@ -46,8 +46,8 @@
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/470</dc:source>
 		<dc:source>https://archive.org/details/cu31924013462738/</dc:source>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">64229</meta>
+		<meta property="se:reading-ease.flesch">58.92</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Heretics</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/g-k-chesterton_heretics</meta>
 		<dc:creator id="author">G. K. Chesterton</dc:creator>
@@ -64,9 +64,12 @@
 		<dc:contributor id="transcriber-1">Mike Piff</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Piff, Mike</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-2">Martin Ward. HTML version by Al Haines</dc:contributor>
+		<dc:contributor id="transcriber-2">Martin Ward</dc:contributor>
 		<meta property="file-as" refines="#transcriber-2">Ward, Martin</meta>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-3">Al Haines</dc:contributor>
+		<meta property="file-as" refines="#transcriber-3">Haines, Al</meta>
+		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Justin Disney</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Disney, Justin</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
@@ -75,6 +78,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">David Grigg</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Grigg, David</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://rightword.com.au/david.php</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
