@@ -54,7 +54,7 @@
 		<meta property="file-as" refines="#author">Chesterton, G. K.</meta>
 		<meta property="se:name.person.full-name" refines="#author">Gilbert Keith Chesterton</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/G._K._Chesterton</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">https://id.loc.gov/authorities/names/n79021157</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79021157</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="artist">John F. Francis</dc:contributor>
 		<meta property="file-as" refines="#artist">Francis, John F.</meta>
