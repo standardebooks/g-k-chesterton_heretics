@@ -46,7 +46,7 @@
 		<dc:source>https://www.gutenberg.org/ebooks/470</dc:source>
 		<dc:source>https://archive.org/details/cu31924013462738/</dc:source>
 		<meta property="se:word-count">64230</meta>
-		<meta property="se:reading-ease.flesch">58.92</meta>
+		<meta property="se:reading-ease.flesch">59.03</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Heretics_(book)</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/g-k-chesterton_heretics</meta>
 		<dc:creator id="author">G. K. Chesterton</dc:creator>
