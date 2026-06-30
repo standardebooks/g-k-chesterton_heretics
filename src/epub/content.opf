@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/g-k-chesterton/heretics</dc:identifier>
 		<dc:date>2021-02-10T02:50:26Z</dc:date>
 		<meta property="dcterms:modified">2021-02-10T02:50:26Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org/</meta>
+		<link href="https://standardebooks.org/" refines="#publisher" rel="schema:url"/>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
-		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com/</meta>
+		<link href="https://www.theleagueofmoveabletype.com/" refines="#type-designer" rel="schema:url"/>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
@@ -35,9 +36,9 @@
 		<meta property="term" refines="#subject-1">sh85006028</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">n79021157</meta>
-		<meta property="se:subject">Nonfiction</meta>
-		<meta property="se:subject">Philosophy</meta>
-		<meta property="se:subject">Spirituality</meta>
+		<meta property="schema:genre">Nonfiction</meta>
+		<meta property="schema:genre">Philosophy</meta>
+		<meta property="schema:genre">Spirituality</meta>
 		<dc:description id="description">A collection of essays in which G. K. Chesterton debates the intellectuals of his day on a range of topics.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/g-k-chesterton"&gt;G. K. Chesterton&lt;/a&gt; was an English writer, journalist, philosopher, poet and lay theologian. He delighted in standing conventional wisdom on its head in order to expose what he considered to be the lack of substance in the “vague modern.”&lt;/p&gt;
@@ -46,21 +47,23 @@
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/470</dc:source>
 		<dc:source>https://archive.org/details/cu31924013462738</dc:source>
-		<meta property="se:word-count">64101</meta>
-		<meta property="se:reading-ease.flesch">59.03</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Heretics_(book)</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/g-k-chesterton_heretics</meta>
+		<meta property="schema:wordCount">64101</meta>
+		<meta property="schema:educationalLevel">59.03</meta>
+		<link href="https://en.wikipedia.org/wiki/Heretics_(book)" rel="schema:sameAs"/>
+		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
+		<link href="https://github.com/standardebooks/g-k-chesterton_heretics" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">G. K. Chesterton</dc:creator>
 		<meta property="file-as" refines="#author">Chesterton, G. K.</meta>
-		<meta property="se:name.person.full-name" refines="#author">Gilbert Keith Chesterton</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/G._K._Chesterton</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79021157</meta>
+		<meta property="schema:alternateName" refines="#author">Gilbert Keith Chesterton</meta>
+		<link href="https://en.wikipedia.org/wiki/G._K._Chesterton" refines="#author" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n79021157.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">dto</meta>
 		<dc:contributor id="artist">John F. Francis</dc:contributor>
 		<meta property="file-as" refines="#artist">Francis, John F.</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/John_F._Francis</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/no95056306</meta>
+		<link href="https://en.wikipedia.org/wiki/John_F._Francis" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/no95056306.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Mike Piff</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Piff, Mike</meta>
@@ -81,7 +84,7 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 		<dc:contributor id="producer-2">David Grigg</dc:contributor>
 		<meta property="file-as" refines="#producer-2">Grigg, David</meta>
-		<meta property="se:url.homepage" refines="#producer-2">https://thegriggs.org/david/</meta>
+		<link href="https://thegriggs.org/david/" refines="#producer-2" rel="schema:url"/>
 		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
